@@ -2121,7 +2121,7 @@ a:active {
 --------------------------------------------------------------*/
 .page-header {
   width: 100%;
-  min-height: 350px;
+  min-height: 250px;
   color: #43baff;
   font-weight: 500;
   background: #262051 center center no-repeat;
@@ -4982,7 +4982,8 @@ object {
   position: absolute;
   right: 0;
   bottom: 0;
-  color: #fff;
+  /* color: #fff; */
+  color: #dddddd85;
 }
 
 .team-wrap {
@@ -5460,7 +5461,7 @@ object {
   font-size: 100px;
   font-weight: 500;
   margin-top: -8px;
-  color: #43baff;
+  color: #000000;
 }
 
 .cs-form {
@@ -5811,7 +5812,8 @@ object {
 
 .wpcf7 .main-form {
   padding: 60px 48px;
-  background-image: linear-gradient(90deg, #00deff 0%, #7141b1 100%);
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #647dee 0%, #7f53ac 74%);
   color: #fff;
 }
 .wpcf7 .main-form h2 {
@@ -5937,7 +5939,8 @@ div.swiper-pagination-custom,
   color: #8e88b8 !important;
 }
 .page-header {
-  background-image: url(https://via.placeholder.com/1920x350.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 }
 /* Header */
 .header-fullwidth .octf-area-wrap {
@@ -6832,32 +6835,38 @@ div.tp-bullet:hover {
   -ms-transition: all 0.2s linear;
 }
 .icon-box-s2.bg1:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .icon-box-s2.bg2:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .icon-box-s2.bg3:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .icon-box-s2.bg4:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .icon-box-s2.bg5:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .icon-box-s2.bg6:before {
-  background-image: url(https://via.placeholder.com/720x524.png);
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -7325,7 +7334,8 @@ svg:not(:root) {
 }
 /* Coming Soon */
 .coming-soon {
-  background-image: url(https://via.placeholder.com/1920x1080.png);
+background-color: #6b2d5c;
+  background-image: linear-gradient(316deg, #6b2d5c 0%, #e0e5e5 74%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7333,6 +7343,26 @@ svg:not(:root) {
   padding-top: 0;
   padding-bottom: 0;
 }
+.cs-gradient-text {
+background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #6b2d5c 74%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.days, .hours, .minutes, .seconds {
+  background-color: #6b2d5c;
+  background-image: linear-gradient(316deg, #6b2d5c 0%, #e0e5e5 74%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .cs-content img {
   padding-top: 60px;
   padding-bottom: 100px;
