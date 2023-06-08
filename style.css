@@ -6741,7 +6741,7 @@ div.tp-bullet:hover {
 }
 
 .home-about-image {
-  background-image: url(public/images/home-about.jpg);
+  background-image: url(public/images/product/landing-home.png);
   background-position: center center;
   background-repeat: no-repeat;
   object-fit: cover;
