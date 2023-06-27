@@ -1,0 +1,33 @@
+## Changelog
+
+###### Date: 28 June, 23
+
+- [x] Update Email-ID across all pages
+- [x] Update Logo across all pages
+- Remove Banner from
+  - [x] `case-studies.html`,
+    - [x] `290523.html`,
+    - [x] `050623.html`,
+    - [x] `120623.html`,
+    - [x] `190623.html`,
+  - [x] `careers.html`,
+  - [x] `career-student.html`,
+  - [x] `career-institute.html`,
+  - [x] `404.html`,
+  - [x] `500.html`,
+  - [x] `faq.html`,
+- [x] Update Arrow Down in `career-student.html`, `career-institute.html` to White
+- Fix Favicon in:
+  - [x] `careers.html`, `career-student.html`, `career-institute.html`
+  - [x] `products.html`
+  - [x] `about.html`
+  - [x] `signin.html`
+- [x] Fix Page-Header in all pages
+- [x] Fix Date of "Transforming Businesses through Effective Change Implementation" Card to May 29, 2023 in `case-studies.html`
+- [x] Rearrange Services mentioned in `data-ai.html`
+  - Sorting
+  - Management
+  - Discovery and Augmentation
+  - Analytics and Strategic Planning
+  - Solution based on Industries
+- [x] Update heading to "Read Most Asked Questions" in `faqs.html`
