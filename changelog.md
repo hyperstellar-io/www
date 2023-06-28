@@ -31,3 +31,28 @@
   - Analytics and Strategic Planning
   - Solution based on Industries
 - [x] Update heading to "Read Most Asked Questions" in `faqs.html`
+
+###### Date: 28 June, 23
+
+- [x] Revamp Design of `coming-soon.html`
+- Fix broken icon in:
+
+  - [x] `050623.html`
+  - [x] `120623.html`
+  - [x] `290523.html`
+  - [x] `190623.html`
+  - [x] `about.html`
+  - [x] `business-strategy.html`
+  - [x] `case-studies.html`
+  - [x] `change-management.html`
+  - [x] `contact.html`
+  - [x] `data-ai.html`
+  - [x] `faq.html`
+  - [x] `infrastructure.html`
+  - [x] `marketing.html`
+  - [x] `online-services.html`
+
+  - Update in `index.html`:
+
+  - [x] links of HERO 2 & 3
+  - [x] color of Testimonial name
