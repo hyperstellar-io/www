@@ -1,3 +1,4 @@
 RewriteEngine on
 ErrorDocument 404 https://hyperstellar-io.github.io/www/404.html
+ErrorDocument 405 https://hyperstellar-io.github.io/www/405.html
 ErrorDocument 500 https://hyperstellar-io.github.io/www/500.html
