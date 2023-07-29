@@ -1035,7 +1035,7 @@ a:active {
 .header-topbar {
   padding: 7px 0px;
   border-bottom: 1px solid transparent;
-  background: #141d38;
+  background: #031029;
   color: #b5b5b5;
   font-size: 14px;
   font-weight: 600;
@@ -5151,11 +5151,11 @@ object {
   padding: 30px 30px 25px;
 }
 
-.contact-info.box-style1:hover {
+/* .contact-info.box-style1:hover {
   box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
-}
+} */
 
 .contact-info.box-style2 {
   text-align: center;
@@ -8541,7 +8541,7 @@ svg:not(:root) {
 
 /* Footer */
 .footer-v1 {
-  background-color: #201d3c;
+  background-color: #031029;
   padding: 115px 0 50px 0;
   color: #aeaacb;
 }

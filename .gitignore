@@ -1,3 +1,4 @@
 /docs
 /.vscode
-/environment.php
+.DS_Store
+*_.

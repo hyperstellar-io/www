@@ -1,5 +1,12 @@
 ## Changelog
 
+###### Date: 29 July, 23
+
+- [x] Updated Favicon, Footer, Topbar across all pages
+- [x] Updated CSS
+- [x] Updated RES Images to WEBP
+- [x] Removed PHPMailer
+
 ###### Date: 28 June, 23
 
 - [x] Update Email-ID across all pages
