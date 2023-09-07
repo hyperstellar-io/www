@@ -1,5 +1,12 @@
 ## Changelog
 
+###### Date 07 Aug, 23
+
+- [x] Added sitemap
+- [x] Added Conversational Chatbot
+- [x] Added Keywords and Description content to meta tags across all pages
+- [x] Removed Irrelavent files
+
 ###### Date: 29 July, 23
 
 - [x] Updated Favicon, Footer, Topbar across all pages
