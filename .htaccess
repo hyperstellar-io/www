@@ -1,4 +1,15 @@
+# mod_rewrite start here
+
 RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.\*)$ $1.html [NC,L]
+
+RewriteRule /?\.htaccess$ - [F,L]
+RewriteRule /?\.gitignore$ - [F,L]
+
+ErrorDocument 403 https://hyperstellar-io.github.io/www/403.html
 ErrorDocument 404 https://hyperstellar-io.github.io/www/404.html
 ErrorDocument 405 https://hyperstellar-io.github.io/www/405.html
 ErrorDocument 500 https://hyperstellar-io.github.io/www/500.html
