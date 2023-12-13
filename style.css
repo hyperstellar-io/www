@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -32,7 +31,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
@@ -3953,25 +3951,28 @@ object {
   padding: 40px 45px;
   position: relative;
   overflow: hidden;
-  
 }
+
 .icon-box-s2.s2 a:hover i {
-  color: #fff; /* Change the color to white on hover */
-  
+  color: #fff;
+  /* Change the color to white on hover */
 }
+
 .icon-box-s2.s2 a:hover p {
-  color: #fff; /* Change the color to white on hover */
-  
+  color: #fff;
+  /* Change the color to white on hover */
 }
-.careers-card-height{
+
+.careers-card-height {
   height: 678px;
 }
-.solution-box-height{
+
+.solution-box-height {
   height: 320px;
 }
-.alignment{
-  
-}
+
+.alignment {}
+
 .icon-box-s2.s2 * {
   transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -4798,7 +4799,6 @@ object {
 }
 
 .project-slider .projects-box .projects-thumbnail img {
-
   filter: grayscale(90%);
 }
 
@@ -5155,7 +5155,6 @@ object {
   -webkit-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 15px 15px 38px 0 rgba(0, 0, 0, 0.1);
 } */
-
 .contact-info.box-style2 {
   text-align: center;
   font-size: 18px;
@@ -9358,7 +9357,6 @@ section {
 }
 
 /* Custom */
-
 header.masthead {
   position: relative;
   overflow: hidden;
@@ -9589,7 +9587,6 @@ fieldset:disabled .btn {
 }
 
 /* Chatbot */
-
 .chat-bot-img {
   width: 50px;
   height: 50px;
