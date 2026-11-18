@@ -1,0 +1,15 @@
+# Hourly: if a scheduled post has just come due, trigger a rebuild so it goes live.
+# Needs the repository secret DEPLOY_HOOK_URL (a deploy hook from your host, e.g. Vercel: Project Settings > Git > Deploy Hooks).
+name: scheduled-posts
+on:
+  schedule: [{ cron: "5 * * * *" }]
+  workflow_dispatch:
+jobs:
+  due:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: due
+        run: echo "result=$(node scripts/due-posts.mjs)" >> "$GITHUB_OUTPUT"
+      - if: steps.due.outputs.result == 'due'
+        run: curl -fsS -X POST "${{ secrets.DEPLOY_HOOK_URL }}"
